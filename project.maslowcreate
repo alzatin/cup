@@ -160,8 +160,8 @@
         {
             "atomType": "Union",
             "name": "Union",
-            "x": 0.2339851652056642,
-            "y": 0.6701030927835051,
+            "x": 0.23600809170600132,
+            "y": 0.6804123711340206,
             "uniqueID": 294966,
             "ioValues": [
                 {
@@ -264,6 +264,27 @@
             ]
         },
         {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5927174645987863,
+            "y": 0.6632302405498282,
+            "uniqueID": 189502,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 7
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 7
+                }
+            ]
+        },
+        {
             "atomType": "ShrinkWrap",
             "name": "Shrink Wrap",
             "x": 0.22049898853674985,
@@ -288,27 +309,6 @@
                 }
             ],
             "closedSelection": 0
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5940660822656777,
-            "y": 0.6872852233676976,
-            "uniqueID": 189502,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 8
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 7
-                }
-            ]
         },
         {
             "atomType": "Difference",
@@ -480,17 +480,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 784344,
-            "ap2ID": 791850
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 6",
             "ap2Primary": false,
             "ap1ID": 189502,
             "ap2ID": 113295
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 784344,
+            "ap2ID": 791850
         },
         {
             "ap1Name": "geometry",
@@ -522,5 +522,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "1.3"
+    "circleSegmentSize": "0.4"
 }
