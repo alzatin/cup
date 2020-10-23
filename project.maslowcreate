@@ -109,15 +109,15 @@
                     "ioValue": ""
                 },
                 {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                },
+                {
                     "name": "3D shape 1",
                     "ioValue": 10
                 },
                 {
                     "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ],
@@ -232,8 +232,8 @@
         {
             "atomType": "Union",
             "name": "Union",
-            "x": 0.6904922454484154,
-            "y": 0.40893470790378006,
+            "x": 0.7383681726230613,
+            "y": 0.26804123711340205,
             "uniqueID": 113295,
             "ioValues": [
                 {
@@ -281,6 +281,14 @@
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7956844234659475,
+            "y": 0.5463917525773195,
+            "uniqueID": 538864,
+            "ioValues": []
+        },
+        {
             "atomType": "Code",
             "name": "Code",
             "x": 0.4740391099123399,
@@ -288,6 +296,27 @@
             "uniqueID": 473201,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: 5})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.6473364801078895,
+            "y": 0.859106529209622,
+            "uniqueID": 316846,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -398,9 +427,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 113295
+            "ap1ID": 113295,
+            "ap2ID": 538864
         },
         {
             "ap1Name": "geometry",
@@ -415,6 +445,26 @@
             "ap2Primary": false,
             "ap1ID": 189502,
             "ap2ID": 113295
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 538864
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 473201,
+            "ap2ID": 316846
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 316846,
+            "ap2ID": 538864
         }
     ],
     "fileTypeVersion": 1,
