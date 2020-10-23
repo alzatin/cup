@@ -226,31 +226,6 @@
             ]
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.5124747134187458,
-            "y": 0.563573883161512,
-            "uniqueID": 714835,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 90
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.3580579905596763,
@@ -367,9 +342,9 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.8341200269723533,
-            "y": 0.8144329896907215,
-            "uniqueID": 447124,
+            "x": 0.8489548213081591,
+            "y": 0.8522336769759451,
+            "uniqueID": 179788,
             "ioValues": []
         }
     ],
@@ -512,7 +487,7 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 538864,
-            "ap2ID": 447124
+            "ap2ID": 179788
         },
         {
             "ap1Name": "geometry",
