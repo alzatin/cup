@@ -262,8 +262,8 @@
         {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.5954146999325691,
-            "y": 0.6804123711340206,
+            "x": 0.5933917734322319,
+            "y": 0.6460481099656358,
             "uniqueID": 189502,
             "ioValues": [
                 {
@@ -281,27 +281,27 @@
             ]
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.4699932569116655,
+            "y": 0.8281786941580757,
+            "uniqueID": 763399,
+            "ioValues": [],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius:30})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.7956844234659475,
-            "y": 0.5463917525773195,
+            "x": 0.794335805799056,
+            "y": 0.5910652920962199,
             "uniqueID": 538864,
             "ioValues": []
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.4740391099123399,
-            "y": 0.859106529209622,
-            "uniqueID": 473201,
-            "ioValues": [],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius: 5})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.6473364801078895,
-            "y": 0.859106529209622,
+            "x": 0.6480107889413351,
+            "y": 0.8350515463917526,
             "uniqueID": 316846,
             "ioValues": [
                 {
@@ -314,7 +314,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 35
                 }
             ]
         },
@@ -448,16 +448,16 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 538864
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 763399,
+            "ap2ID": 316846
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 473201,
-            "ap2ID": 316846
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 538864
         },
         {
             "ap1Name": "geometry",
