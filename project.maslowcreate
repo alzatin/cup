@@ -139,8 +139,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5696913002806361,
-            "y": 0.2920962199312715,
+            "x": 0.5650140318054256,
+            "y": 0.27835051546391754,
             "uniqueID": 890177,
             "ioValues": []
         },
@@ -171,19 +171,6 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.44234659474039106,
-            "y": 0.5738831615120275,
-            "uniqueID": 791850,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 1.5
                 }
             ]
         },
@@ -224,8 +211,8 @@
         {
             "atomType": "Union",
             "name": "Union",
-            "x": 0.6828811973807296,
-            "y": 0.3230240549828179,
+            "x": 0.6772684752104771,
+            "y": 0.3195876288659794,
             "uniqueID": 113295,
             "ioValues": [
                 {
@@ -239,6 +226,19 @@
                 {
                     "name": "3D shape 8",
                     "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.44621141253507957,
+            "y": 0.604810996563574,
+            "uniqueID": 791850,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 1.5
                 }
             ]
         },
@@ -364,8 +364,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.4667913938260056,
-            "y": 0.8762886597938144,
+            "x": 0.4677268475210477,
+            "y": 0.9209621993127148,
             "uniqueID": 763399,
             "ioValues": [],
             "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return sphere({radius:8})        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
@@ -489,13 +489,6 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 791850,
-            "ap2ID": 189502
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 123714,
             "ap2ID": 447140
         },
@@ -519,6 +512,13 @@
             "ap2Primary": false,
             "ap1ID": 113295,
             "ap2ID": 538864
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 791850,
+            "ap2ID": 189502
         },
         {
             "ap1Name": "geometry",
