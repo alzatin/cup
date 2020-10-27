@@ -399,6 +399,15 @@
             "ioValues": []
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Plate Template",
+            "x": 0.7483629560336764,
+            "y": 0.8144329896907215,
+            "uniqueID": 189120,
+            "projectID": "229376941",
+            "ioValues": []
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.8489548213081591,
